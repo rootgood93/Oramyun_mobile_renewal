@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>이근선_오늘의라면_인덱스구현</title>
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <h1 class="logo"><a href="#"><img src="./images/logo.svg" alt="오늘의라면 로고"></a></h1>
+            <button class="ham_btn"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+    <div class="wrap">
+        <section class="main_visual">
+            <h2 class="visual_txt">원하는 <span class="c_red">라면</span><span class="small">을</span><br>
+                원하는 <span class="c_orange">날짜</span><span class="small">에</span><br>
+                <span class="c_blue">배송</span><span class="small">해드려요!</span>
+            </h2>
+            <div class="btn1">
+                <a href="#"></a>
+                <p>보유한 봉지라면<br> <span class="small">보러 가기 →</span></p>
+                <img src="./images/sin_ramun@2x.png" alt="봉지라면">
+            </div>
+            <div class="btn2">
+                <a href="#"></a>
+                <p>보유한 컵라면<br> <span class="small">보러 가기 →</span></p>
+                <img src="./images/yuk_ramun@2x.png" alt="컵라면">
+            </div>
+        </section>
+        <!-- main_visual -->
+        <section class="slide_ban inner">
+            <h3 class="sec_tit">
+                어떤 라면 좋아하세요?
+            </h3>
+            <div class="slide_box">
+                <ul class="slide">
+                    <li>
+                        <a href="#"></a>
+                        <p><span class="f_SCD-7">봉지라면</span><br>자유구성</p>
+                        <img src="./images/free_ramun@2x.png" alt="">
+                        <p class="c_main"><span class="f_SCD-7">5,000원</span>부터~</p>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                        <p><span class="f_SCD-7">컵라면</span><br>자유구성</p>
+                        <img src="./images/free_cupramun@2x.png" alt="">
+                        <p class="c_main"><span class="f_SCD-7">6,000원</span>부터~</p>
+                    </li>
+                </ul>
+                <button class="prev"><i class="fa-solid fa-circle-arrow-left"></i></button>
+                <button class="next"><i class="fa-solid fa-circle-arrow-right"></i></button>
+            </div>
+            <a href="#" class="go_btn">구독방법 알아보기</a>
+        </section>
+        <!-- slide_ban -->
+        <section class="benefit inner">
+            <h3 class="sec_tit">
+                구독 혜택
+            </h3>
+            <div class="bene_box">
+                <a href="#">최대 60% 할인 & 평생 무료배송</a>
+                <a href="#">회원가입 시 5,000원 할인쿠폰</a>
+                <a href="#">연속구독 리워드</a>
+                <a href="#">구독 보너스</a>
+            </div>
+        </section>
+        <!-- benefit -->
+        <section class="review inner">
+            <h3 class="sec_tit">
+                뜨끈한 리뷰
+            </h3>
+            <a href="#" class="go_btn insta_gra">#인스타그램</a>
+            <ul class="img_box flex_between">
+                <li><a href="#"></a><img src="./images/review_img1.jpg" alt="리뷰 이미지"></li>
+                <li><a href="#"></a><img src="./images/review_img2.jpg" alt="리뷰 이미지"></li>
+                <li><a href="#"></a><img src="./images/review_img3.jpg" alt="리뷰 이미지"></li>
+            </ul>
+            <div class="link_box">
+                <a href="#">
+                    <span>오늘의 라면 사이트 뜨끈한 리뷰 1</span> <span>2022-04-26</span>
+                </a>
+                <a href="#">
+                    <span>오늘의 라면 사이트 뜨끈한 리뷰 2</span> <span>2022-04-26</span>
+                </a>
+                <a href="#">
+                    <span>오늘의 라면 사이트 뜨끈한 리뷰 3</span> <span>2022-04-26</span>
+                </a>
+            </div>
+            <a href="#" class="go_btn">더 보기</a>
+        </section>
+        <!-- .review -->
+        <section class="news inner">
+            <h3 class="sec_tit">
+                오늘의 라면 소식
+            </h3>
+            <a href="#" target="_blank" class="go_btn insta"><i class="fa-brands fa-instagram"></i> &nbsp;인스타그램</a>
+            <a href="#" target="_blank" class="go_btn kakao"><i class="fa-solid fa-comment-dots"></i> &nbsp;카카오톡 채널</a>
+            <div class="news_box">
+                <a href="#">라면 월드컵</a>
+                <a href="#">라니툰</a>
+                <a href="#">이달의 레시피</a>
+                <a href="#">이벤트</a>
+            </div>
+        </section>
+        <!-- .news -->
+    </div>
+    <!-- .wrap -->
+    <footer>
+        <a href="#" class="ft_btn">
+            <h4 class="f_SJ-Gotgam">구독/선물하러 가기</h4>
+        </a>
+        <nav class="list flex_between">
+            <a href="#" target="_blank">이용약관</a>
+            <a href="#" target="_blank">개인정보처리방침</a>
+            <a href="#" target="_blank">입점/제휴 문의</a>
+            <a href="#" target="_blank">기업/대량 구매</a>
+        </nav>
+        <ul class="txt_box">
+            <li>
+                <h5 class="f_SDC-7">INFO 정보</h5>
+                <p class="c_lightgrey">(주)유니스 부산 해운대구 센텀북대로 60 센텀IS타워 1007호 <br>
+                    대표자명 : 박종덕 / 사업자등록번호 : 617-81-60090 [사업자정보확인]<br>
+                    통신판매업신고번호 : 2012-부산해운-0108</p>
+            </li>
+            <li>
+                <h5 class="f_SDC-7">CS CENTER</h5>
+                <p class="c_lightgrey">문의전화 : 070-4351-3012 / 업무시간평일 : 10:00 ~ 17:00 (주말/공휴일 휴무) <br>
+                    문의메일rrh@uxis.co.kr / 팩스번호051-780-8157</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
