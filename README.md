@@ -6,7 +6,7 @@
 <a target="_blank" href="https://rootgood93.github.io/Oramyun_mobile_renewal/">https://rootgood93.github.io/Oramyun_mobile_renewal</a>
 
 # 기획서 사이트
-<a target="_blank" href="https://docs.google.com/presentation/d/1EAlA4PMD7hbY7Xaw7rpwo-XImNBHmazKFAttCe-rI9g/edit#slide=id.p">기획서 보러가기</a>
+<a target="_blank" href="https://docs.google.com/presentation/d/1P43Yyr5v91X5nYXl8ZISlWH5wchPJ2cVOb4pTlqCeas/edit?usp=sharing">기획서 보러가기</a>
 
 # 와이어프레임
 사용자의 UX를 고려하여 제품을 구매/구독하는 총 7단계를 XD로 구현했습니다.
