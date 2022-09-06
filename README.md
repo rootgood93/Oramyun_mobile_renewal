@@ -3,10 +3,10 @@
 그 외의 리뉴얼 사이트 디자인과 퍼블리싱은 개인 작업으로 이루어졌습니다.
 
 # 사이트
--
+<a target="_blank" href="https://rootgood93.github.io/Oramyun_mobile_renewal/">https://rootgood93.github.io/Oramyun_mobile_renewal</a>
 
 # 기획서 사이트
-<a target="_blank" href="">https://docs.google.com/presentation/d/1EAlA4PMD7hbY7Xaw7rpwo-XImNBHmazKFAttCe-rI9g/edit#slide=id.p</a>
+<a target="_blank" href="https://docs.google.com/presentation/d/1EAlA4PMD7hbY7Xaw7rpwo-XImNBHmazKFAttCe-rI9g/edit#slide=id.p">기획서 보러가기</a>
 
 # 와이어프레임
 사용자의 UX를 고려하여 제품을 구매/구독하는 총 7단계를 XD로 구현했습니다.
